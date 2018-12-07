@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Some Title</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+		<style media="screen">
+		body {
+				margin: 0;
+
+		}
+
+		.Header {
+				position: fixed;
+				z-index:1;
+				width: 100%;
+				height: 70px;
+				background-color: black;
+				text-align: right;
+		}
+		.headerLogo {
+
+		}
+
+		.socialmedia {
+				position: fixed;
+				right: 100px;
+				top: 35px;
+				transform: translate(0, -50%);
+				display: flex;
+				/* add this */
+				align-items: center;
+				/* add this */
+		}
+
+		.preorder button {
+				background-color: white;
+				border: 0;
+				height: 35px;
+				width: 110px;
+				margin-left: 35px;
+		}
+
+		.footer {
+        height:40px;
+        position:fixed;
+        width: 1024px;
+        background:#FFF;
+        padding: 5px;
+        clear: both;
+        bottom:0;
+        left:0;
+        right:0;
+    }
+
+		.img-fluid{
+				width: inherit;
+				height: 782px;
+		}
+
+		.mySlides~.mySlides {
+				position: absolute;
+				top: 0;
+				left: 100%;
+				transition: 0.7s;
+		}
+		</style>
+    <body>
+
+    <div class="Header" id="myHeader">
+        <a class = "headerLogo">
+            <a href="file:///C:/Noah's%20stuff/Home.html" ><h1 style="color:white; font-family: Verdana; font-style: italic; font-size: x-large;
+            text-align: center; padding-top: 20px">Some Title</h1></a>
+            <style>
+                a{text-decoration: none;}
+                a:hover{
+                    text-decoration:none;
+                }
+            </style>
+
+        </a>
+        <div class="socialmedia">
+            <a class = "Facebook">
+                <a href="https://www.facebook.com/" target="_blank"><img src = "https://images.seeklogo.net/2016/09/facebook-icon-preview-1.png" width="50px" height="50px"></a>
+            </a>
+            <a class = "Instagram">
+                <a href="https://www.instagram.com/"><img src = "https://images.seeklogo.net/2016/06/Instagram-logo.png"  width="50px" height="50px"></a>
+            </a>
+            <a class = "Youtube">
+                <a href="https://www.youtube.com/channel/" target="_blank"><img src = "https://images.seeklogo.net/2016/06/YouTube-icon.png" width="50px" height="50px"></a>
+            </a>
+            <a class = preorder>
+                <button style = "background-color: white;">Pre-Order</button>
+
+            </a>
+        </div>
+    </div>
+</body>

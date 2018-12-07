@@ -1,0 +1,71 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+  background-image: url(MyCanteen.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.box{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 400px;
+  padding: 40px;
+  background: rgba(0,0,0,0.5);
+  box-sizing: border-box;;
+  box-shadow: 200px 200px 400px 200px rgba(0,0,0,0.3) inset;
+  border-radius: 10px;
+}
+.box:hover{
+  box-shadow: 0px 18px 18px 16px rgba(0,0,0,0.3);
+}
+.box h2{
+  margin: 0 0 30px;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+}
+.box .inputBox{
+  position: relative;
+}
+.box .inputBox input{
+  width: 100%;
+  padding: 10px 0;
+  letter-spacing: 1px;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.box .inputBox label{
+  position: absolute;
+  top:0;
+  left: 0;
+  letter-spacing:
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  transition: 0.5s;
+}
+.box .inputBox input:focus ~label,
+.box .inputBox input:valid ~ label{
+  top: -20px;
+  left: 0;
+  color: #03a9f4;
+  font-size: 12px;
+}
+.box input[type='submit']{
+  background: transparent;
+  border: none;
+  outline: none;
+  background: #03a9f4;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}

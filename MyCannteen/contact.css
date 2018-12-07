@@ -1,0 +1,65 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-image: url(back.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.One{
+  height: 45px;
+  border-radius: 4px 4px 4px 4px;
+  background-color: #342b2b;
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 180px;
+  margin-top: 1.7%;
+  padding: 25px;
+  box-shadow: 4px 4px 4px 4px grey;
+}
+.Menu{
+  font-family: arial, cursive;
+  padding-left: auto;
+  padding-right: auto;
+  margin-top: 0;
+  display: inline-block;
+}
+.Menu li{
+  display: table-cell;
+  width: 250px;
+  font-size: 24px;
+  transition: text-shadow, color 1s;
+}
+.Menu li:hover{
+  transition: text-shadow, color 1s;
+  width: 250px;
+}
+.Menu li.active a{
+  color: black;
+  background-color: white;
+  padding: 3% 2%;
+  border-radius: 4px 4px 4px 4px
+}
+.Menu a{
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  color: white;
+}
+.left span{
+  float: right;
+}
+.left span{
+  float: left;
+}
+.Menu a:hover{
+  color: darkorange;
+  transition: 0.5s;
+  background: #342b2b;
+  border-bottom: 4px solid red;
+}
+video{
+  margin: 5%;
+  margin-left: 22%;
+}
